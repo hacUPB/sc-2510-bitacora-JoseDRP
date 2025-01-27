@@ -43,12 +43,11 @@ Un computador digital moderno tiene varias partes clave:
 
 ### Solución actividad 4:
 
-la solución para esta actividad es la siguiente:
+La solución para esta actividad es la siguiente:
 
-```
+```asm
 @100
 D = A
 @32
 M = D
-
 ```
