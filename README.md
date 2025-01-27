@@ -24,3 +24,18 @@ Un computador digital moderno tiene varias partes clave:
 **Fuente de Alimentación:** Proporciona energía a todos los componentes.
 
 **Placa Base (Motherboard):** Es donde se conectan todos los componentes.
+
+
+### Solución actividad 2:
+
+- Un programa es un conjunto de instrucciones que le indica a la computadora cómo realizar una tarea.
+
+- El lenguaje ensamblador es un lenguaje de bajo nivel que usa abreviaciones o símbolos fáciles de entender para representar las instrucciones del lenguaje de máquina, pero aún requiere ser convertido a código binario para que la computadora lo ejecute.
+
+- El lenguaje de máquina es el código binario que la CPU puede ejecutar directamente, pero es difícil de entender para los humanos.
+
+### Solución actividad 3:
+
+- PC, A y D son registros pero que tienen funciones diferentes en la CPU. PC o program counter es un registro en la CPU que guarda la dirección de la siguiente instrucción que debe ser ejecutada. D o Data es un registro utilizado para almacenar datos temporales mientras ejecutamos el programa. A o Adress es un registro que almacena direcciones de memoria, se usa para cargar datos o almacenarlos.
+
+- La CPU utiliza el PC para saber qué instrucción ejecutar a continuación. El D se usa para almacenar datos temporales mientras ejecutamos las instrucciones. El A se utiliza para cargar y almacenar datos en la memoria.
