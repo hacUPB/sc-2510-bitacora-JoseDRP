@@ -3,13 +3,13 @@
 
 ## Unidad 1
 
-#### Solución actividad 1:
+### Solución actividad 1:
 
-##### ¿Qué es un computador digital moderno?
+#### ¿Qué es un computador digital moderno?
 
 Un computador digital moderno es una máquina capaz de procesar información mediante el uso de sistemas binarios donde los datos se representan en 1 y 0. Su principal función es recibir, almacenar, procesar y producir datos o información, siguiendo las instrucciones de un programa.
 
-##### ¿Cuáles son sus partes?
+#### ¿Cuáles son sus partes?
 
 Un computador digital moderno tiene varias partes clave:
 
