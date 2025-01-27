@@ -39,3 +39,16 @@ Un computador digital moderno tiene varias partes clave:
 - PC, A y D son registros pero que tienen funciones diferentes en la CPU. PC o program counter es un registro en la CPU que guarda la dirección de la siguiente instrucción que debe ser ejecutada. D o Data es un registro utilizado para almacenar datos temporales mientras ejecutamos el programa. A o Adress es un registro que almacena direcciones de memoria, se usa para cargar datos o almacenarlos.
 
 - La CPU utiliza el PC para saber qué instrucción ejecutar a continuación. El D se usa para almacenar datos temporales mientras ejecutamos las instrucciones. El A se utiliza para cargar y almacenar datos en la memoria.
+
+
+### Solución actividad 4:
+
+la solución para esta actividad es la siguiente:
+
+```
+@100
+D = A
+@32
+M = D
+
+```
