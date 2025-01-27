@@ -54,10 +54,28 @@ M=D
 
 ### RETO:
 
-#### 1.
+#### 1. Carga en D el valor 1978.
 
 ```asm
 @1978
 D=A
 ```
+
+#### 2. Guarda en la posición 100 de la RAM el número 69.
+
+```asm
+@69
+D=A
+@100
+M=D
+```
+#### 3. Guarda en la posición 200 de la RAM el contenido de la posición 24 de la RAM
+
+```asm
+@24
+D=M
+@200
+M=D
+```
+
 
