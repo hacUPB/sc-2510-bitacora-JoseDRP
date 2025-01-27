@@ -47,7 +47,17 @@ La solución para esta actividad es la siguiente:
 
 ```asm
 @100
-D = A
+D=A
 @32
-M = D
+M=D
 ```
+
+### RETO:
+
+#### 1.
+
+```asm
+@1978
+D=A
+```
+
