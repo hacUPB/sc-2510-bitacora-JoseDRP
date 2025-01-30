@@ -78,4 +78,49 @@ D=M
 M=D
 ```
 
+#### 4. Lee lo que hay en la posición 100 de la RAM, resta 15 y guarda el resultado en la posición 100 de la RAM.
+
+```asm
+@15
+D=A
+@100
+M=M-D
+```
+#### 5. Suma el contenido de la posición 0 de la RAM, el contenido de la posición 1 de la RAM y con la constante 69. Guarda el resultado en la posición 2 de la RAM.
+
+
+```asm
+@0
+D=M
+@1
+D=D+M
+@69
+D=D+A
+@2
+M=D
+```
+
+#### 6. Si el valor almacenado en D es igual a 0 salta a la posición 100 de la ROM.
+
+```asm
+@0
+D=A
+@100
+D;JEQ
+```
+
+#### 7. Si el valor almacenado en la posición 100 de la RAM es menor a 100 salta a la posición 20 de la ROM.
+
+```asm
+@100
+D=M
+@100
+D=D-A
+@12
+D;JLT
+```
+
+#### 8. 
+
+
 
