@@ -120,7 +120,11 @@ D=D-A
 D;JLT
 ```
 
-#### 8. 
+#### 8. Considera el siguiente programa.
+
+- Este programa apunta a la variable 1 para luego guardar en D el valor almacenado en esa posición de la RAM. Luego apunta a la variable 2 para sumar el valor almacenado en esta variable con el valor que teníamos previamente guardado en D. Finalmente apunta a una variable 3 para almacenar el resultado de la suma previa en esta posción.
+
+- 
 
 
 
