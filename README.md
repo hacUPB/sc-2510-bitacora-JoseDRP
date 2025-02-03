@@ -136,6 +136,16 @@ D;JLT
 @i
 M=M+1
 ```
+#### 10. Escribe un programa en lenguaje ensamblador que guarde en R1 la operación 2 * R0.
 
+```asm
+@R0
+D=M
+@R1
+M=D
+M=D+M
+```
+
+#### 11. 
 
 
