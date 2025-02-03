@@ -124,7 +124,18 @@ D;JLT
 
 - Este programa apunta a la variable 1 para luego guardar en D el valor almacenado en esa posición de la RAM. Luego apunta a la variable 2 para sumar el valor almacenado en esta variable con el valor que teníamos previamente guardado en D. Finalmente apunta a una variable 3 para almacenar el resultado de la suma previa en esta posción.
 
-- 
+#### 9. Considera el siguiente programa.
+
+- lo que hace este programa es primero declarar la variable i con @i, y le asigna el valor de 1. Luego de esto declara la variable sum con @sum y le asigna el valor de 0. Después, llama a la variable @i y almacena en D su valor; seguidamente llama a la variable @sum y suma el valor que encuentra en D (valor de @i) con el valor en @sum y lo almacena en la posición 17 que vendría siendo la variable @sum. Finalmente, realiza una suma de el valor hallado en la variable @i + 1 y este resultado lo almacena en la posición 16 de la memoria que es la variable @i. 
+
+- @i y @sum son almacenados en la posición 16 y 17 de la memoria RAM, respectivamente.
+
+- se optimizaría de la siguiente manera:
+
+```asm
+@i
+M=M+1
+```
 
 
 
