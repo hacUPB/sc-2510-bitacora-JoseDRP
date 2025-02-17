@@ -146,6 +146,18 @@ M=D
 M=D+M
 ```
 
-#### 11. 
+#### 11. Responde las preguntas.
+
+- El programa inicializa la variable i con el valor 1000, luego entra en un bucle que decrementa i en cada ciclo hasta que i llega a 0. Una vez que i es 0, el programa salta a CONT y termina.
+
+- La variable i se almacena en memoria RAM, y su dirección es 1000, ya que se asigna en la instrucción @1000, la cual coloca el valor 1000 en la dirección de memoria indicada por el símbolo i.
+
+- Los comentarios no ocupan memoria ni tienen una dirección de memoria. Son solo notas para comprender de mejor manera el código.
+
+- La primera instrucción es @1000. Está almacenada en la memoria de instrucciones en la dirección 0 donde se inicia el código.
+
+- CONT y LOOP son etiquetas de salto dentro del programa. LOOP marca el inicio del bucle, y CONT es el punto al que se salta cuando la variable i llega a 0.
+
+#### 12. 
 
 
