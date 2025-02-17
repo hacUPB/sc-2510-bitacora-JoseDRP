@@ -158,6 +158,51 @@ M=D+M
 
 - CONT y LOOP son etiquetas de salto dentro del programa. LOOP marca el inicio del bucle, y CONT es el punto al que se salta cuando la variable i llega a 0.
 
-#### 12. 
+#### 12. Implementar en ensamblador
+
+```asm
+@R1
+D=M
+D=D+M
+@69
+D=D+M
+@R4
+M=D
+```
+
+Dan buzzo(unidad 3)
+#### 13. Implementar en ensamblador
+
+```asm
+
+```
+
+#### 14. Implementar en ensamblador
+
+```asm
+@R1
+A=M
+D=M
+@R4
+M=D
+```
+
+#### 15. Implementar en ensamblador
+
+```asm
+@R0
+D=M
+
+@R1
+D=D+A
+
+@LOOP_START
+@R0
+@D=M
+@R0
+M=D
+
+@R1
+```
 
 
